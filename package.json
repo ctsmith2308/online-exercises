@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ctsmith2308/online-exercises/issues"
   },
-  "homepage": "https://github.com/ctsmith2308/online-exercises#readme"
+  "homepage": "https://github.com/ctsmith2308/online-exercises#readme",
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
 }
