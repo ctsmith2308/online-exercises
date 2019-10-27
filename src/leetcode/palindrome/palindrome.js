@@ -30,4 +30,6 @@ const longestPalindrome = (string) => {
   return pairs * 2 + 1;
 }
 
-longestPalindrome(string)
+// longestPalindrome(string)
+
+export default longestPalindrome

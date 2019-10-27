@@ -17,4 +17,6 @@ const twoSum = (nums, target) => {
     return 'no two sums'
   };
   
-  twoSum(nums, target)
+  // twoSum(nums, target)
+
+  export default twoSum
