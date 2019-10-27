@@ -1,0 +1,19 @@
+{
+  "name": "online-exercises",
+  "version": "1.0.0",
+  "description": "Compilation of online js questions and solutions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctsmith2308/online-exercises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctsmith2308/online-exercises/issues"
+  },
+  "homepage": "https://github.com/ctsmith2308/online-exercises#readme"
+}
