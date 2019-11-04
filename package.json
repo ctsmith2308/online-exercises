@@ -4,7 +4,7 @@
   "description": "Compilation of online js questions and solutions",
   "main": "index.js",
   "scripts": {
-    "test": "mocha src/**/*.spec.js --require babel-register"
+    "test": "mocha src/**/*.spec.js --require @babel/register"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/ctsmith2308/online-exercises#readme",
   "devDependencies": {
-    "babel-register": "^6.26.0",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
     "chai": "^4.2.0",
     "mocha": "^6.2.2"
   }
