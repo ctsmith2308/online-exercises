@@ -1,3 +1,15 @@
+// Given an n x n array, return the array elements arranged from
+// outermost elements to the middle element, traveling clockwise.
+// NOTE: The idea is not sort the elements from the lowest value to the highest; 
+// the idea is to traverse the 2-d array in a clockwise snailshell pattern.
+
+// https://www.codewars.com/kata/snail/javascript
+
+// array = [[1,2,3],
+//          [4,5,6],
+//          [7,8,9]]
+// snail(array) #=> [1,2,3,6,9,8,7,4,5]
+
 const snail = (arr, completeArray = []) => {
   let [top, middle, bottom, end] = [[], [], [], []];
   for (let i = 0; i <= arr.length; i++) {
